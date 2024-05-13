@@ -1,0 +1,13 @@
+14:35:06.675 [main]INFO  AddNewCustomer - User redirected to Add new customer page
+14:35:07.145 [main]INFO  Corefunctions - Rishabh entered successfully in element Customer Name
+14:35:07.652 [main]INFO  Corefunctions - Female radio button clicked successfully
+14:35:07.856 [main]INFO  Corefunctions - Male radio button clicked successfully
+14:35:08.186 [main]INFO  Corefunctions - 10-05-1993 entered successfully in element Date of Birth
+14:35:08.782 [main]INFO  Corefunctions - 43 12 near sai mandir malviya nagar moradabad entered successfully in element Address
+14:35:09.048 [main]INFO  Corefunctions - moradabad entered successfully in element City
+14:35:09.388 [main]INFO  Corefunctions - utter pradesh entered successfully in element State
+14:35:09.665 [main]INFO  Corefunctions - 244001 entered successfully in element PIN
+14:35:09.951 [main]INFO  Corefunctions - 4994528955 entered successfully in element Mobile Number
+14:35:11.068 [main]INFO  Corefunctions - sandy.kihn@gmail.com entered successfully in element Email Id
+14:35:11.348 [main]INFO  Corefunctions - May@2024 entered successfully in element Password
+14:35:12.633 [main]INFO  Corefunctions - Submit button clicked successfully

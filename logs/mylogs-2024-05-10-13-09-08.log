@@ -1,0 +1,13 @@
+13:09:12.402 [main]INFO  BankDemoLogin - url opened successfully
+13:09:13.006 [main]INFO  BankDemoLogin - UserId entered successfully
+13:09:17.114 [main]INFO  AddNewCustomer - User redirected to Add new customer page
+13:09:17.857 [main]INFO  Corefunctions - Rishabh entered successfully in element Customer Name
+13:09:18.120 [main]INFO  Corefunctions - Female radio button clicked successfully
+13:09:18.320 [main]INFO  Corefunctions - Male radio button clicked successfully
+13:09:18.571 [main]INFO  Corefunctions - 10-05-1993 entered successfully in element Date of Birth
+13:09:19.228 [main]INFO  Corefunctions - 43,12- near sai mandir, malviya nagar, moradabad entered successfully in element Address
+13:09:19.518 [main]INFO  Corefunctions - moradabad entered successfully in element City
+13:09:19.829 [main]INFO  Corefunctions - utter pradesh entered successfully in element State
+13:09:20.087 [main]INFO  Corefunctions - 244001 entered successfully in element PIN
+13:09:20.769 [main]INFO  Corefunctions - 153-922-6080 entered successfully in element Mobile Number
+13:09:21.579 [main]INFO  Corefunctions - Suite 287 41915 Rowe Plains, Robertmouth, FL 72782-8475 entered successfully in element Email Id

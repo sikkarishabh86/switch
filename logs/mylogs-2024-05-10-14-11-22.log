@@ -1,0 +1,20 @@
+14:11:27.370 [main]INFO  AddNewCustomer - User redirected to Add new customer page
+14:11:28.352 [main]INFO  Corefunctions - Rishabh entered successfully in element Customer Name
+14:11:28.665 [main]INFO  Corefunctions - Female radio button clicked successfully
+14:11:30.170 [main]ERROR Corefunctions - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="radio" name="rad1" value="m" checked=""> is not clickable at point (592, 221). Other element would receive the click: <textarea rows="5" cols="20" name="addr" maxlength="50" onkeyup="validateAddress();" onblur="validateAddress();"></textarea>
+  (Session info: chrome=124.0.6367.156)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [081f73ed75e76360e7db2751405aba58, clickElement {id=f.421DCC41DB0D54FDBF9540C0580F554B.d.A309E9D504CBA68C903372318B2CEC7D.e.12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58049/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (081f73ed75e76360e7db2751405aba58)] -> xpath: //input[@value='m']]
+Session ID: 081f73ed75e76360e7db2751405aba58
+14:11:30.451 [main]INFO  Corefunctions - 10-05-1993 entered successfully in element Date of Birth
+14:11:31.095 [main]INFO  Corefunctions - 43,12- near sai mandir, malviya nagar, moradabad entered successfully in element Address
+14:11:31.451 [main]INFO  Corefunctions - moradabad entered successfully in element City
+14:11:31.777 [main]INFO  Corefunctions - utter pradesh entered successfully in element State
+14:11:32.064 [main]INFO  Corefunctions - 244001 entered successfully in element PIN
+14:11:32.664 [main]INFO  Corefunctions - 762-768-4730 entered successfully in element Mobile Number
+14:11:33.383 [main]INFO  Corefunctions - junior.russel@yahoo.com entered successfully in element Email Id
+14:11:33.676 [main]INFO  Corefunctions - May@2024 entered successfully in element Password

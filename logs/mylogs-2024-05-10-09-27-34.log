@@ -1,0 +1,7 @@
+09:27:38.258 [main]INFO  BankDemoLogin - url opened successfully
+09:27:39.586 [main]INFO  BankDemoLogin - UserId entered successfully
+09:27:43.282 [main]INFO  AddNewCustomer - User redirected to Add new customer page
+09:27:44.105 [main]INFO  Corefunctions - Rishabh entered successfully in element Customer Name
+09:27:44.374 [main]INFO  Corefunctions - Female radio button clicked successfully
+09:27:44.590 [main]INFO  Corefunctions - Male radio button clicked successfully
+09:27:44.843 [main]INFO  Corefunctions - 10-05-1993 entered successfully in element Date of Birth

@@ -1,0 +1,13 @@
+13:11:26.867 [main]INFO  BankDemoLogin - url opened successfully
+13:11:27.391 [main]INFO  BankDemoLogin - UserId entered successfully
+13:11:30.717 [main]INFO  AddNewCustomer - User redirected to Add new customer page
+13:11:31.709 [main]INFO  Corefunctions - Rishabh entered successfully in element Customer Name
+13:11:31.947 [main]INFO  Corefunctions - Female radio button clicked successfully
+13:11:32.184 [main]INFO  Corefunctions - Male radio button clicked successfully
+13:11:32.434 [main]INFO  Corefunctions - 10-05-1993 entered successfully in element Date of Birth
+13:11:33.025 [main]INFO  Corefunctions - 43,12- near sai mandir, malviya nagar, moradabad entered successfully in element Address
+13:11:33.333 [main]INFO  Corefunctions - moradabad entered successfully in element City
+13:11:33.663 [main]INFO  Corefunctions - utter pradesh entered successfully in element State
+13:11:33.943 [main]INFO  Corefunctions - 244001 entered successfully in element PIN
+13:11:34.546 [main]INFO  Corefunctions - 059-461-3748 entered successfully in element Mobile Number
+13:11:35.328 [main]INFO  Corefunctions - merrill.gusikowski@gmail.com entered successfully in element Email Id
