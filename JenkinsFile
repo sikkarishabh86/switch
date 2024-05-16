@@ -11,5 +11,19 @@ pipeline {
  
             
         }
+          stage('Publish Test Reports') {
+            steps {
+                // Install the HTML Publisher Plugin (if not already installed)
+                // Publish the HTML report
+                publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: './target/SparkReports/SparkReport*/HtmlReport/*',
+                    reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
+                    reportName: 'Selenium Test Report'
+                ])
+            }
+        }
     }
 }
