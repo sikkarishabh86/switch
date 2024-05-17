@@ -19,7 +19,7 @@ pipeline {
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: './target/SparkReports/**/*',
+                    reportDir: './target/SparkReports/htmlReport',
                     reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
                     reportName: 'Selenium Test Report'
                 ])
