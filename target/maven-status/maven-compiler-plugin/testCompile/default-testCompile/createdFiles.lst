@@ -1,9 +1,0 @@
-baseSetup\BaseSetup.class
-test\Test.class
-StepDefinitions\AddNewCustomer.class
-utilities\Corefunctions.class
-PageObjects\HomePage.class
-PageObjects\LoginPage.class
-TestRunner\TestRunner.class
-StepDefinitions\BankDemoLogin.class
-utilities\PropertyFileReader.class

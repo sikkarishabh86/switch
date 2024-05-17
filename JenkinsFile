@@ -10,15 +10,14 @@ pipeline {
     }
     post {
         always {
-            junit 'test-results.xml'
-            publishHTML(target: [
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: './target/SparkReports/htmlReport',
-                reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
-                reportName: 'Selenium Test Report'
-            ])
+              publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: './target/SparkReports/htmlReport',
+                    reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
+                    reportName: 'Selenium Test Report'
+                ])
         }
     }
 }
