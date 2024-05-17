@@ -1,29 +1,24 @@
 pipeline {
     agent any
- 
     stages {
         stage('Test') {
             steps {
- 
                 // To run Maven on a Windows agent, use
                 bat "mvn clean test"
             }
- 
-            
         }
-          stage('Publish Test Reports') {
-            steps {
-                // Install the HTML Publisher Plugin (if not already installed)
-                // Publish the HTML report
-                publishHTML(target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: './target/SparkReports/htmlReport',
-                    reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
-                    reportName: 'Selenium Test Report'
-                ])
-            }
+    }
+    post {
+        always {
+            junit 'test-results.xml'
+            publishHTML(target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: './target/SparkReports/htmlReport',
+                reportFiles: 'ExtentHtml.html', // Adjust the filename if needed
+                reportName: 'Selenium Test Report'
+            ])
         }
     }
 }
